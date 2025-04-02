@@ -30,3 +30,11 @@ This is a simple start to setting up a **`LaTeX`** project(s) and workplace.
    git clone https://github.com/DavitTec/Latex-Learning-Workshop.git
    ```
 
+## Context from Your Repository
+
+The [understand_latex.md](https://github.com/DavitTec/Latex-Learning-Workshop/blob/master/docs/understand_latex.md) document provides a beginner-friendly introduction to LaTeX, covering:
+
+- What LaTeX Is: A document preparation system built on TeX.
+- Basic Structure: The preamble, document class, and body.
+- Simple Commands: Examples like \textbf, \textit, and basic math mode.
+- Purpose: Aimed at helping users get started with LaTeX’s syntax and structure.
