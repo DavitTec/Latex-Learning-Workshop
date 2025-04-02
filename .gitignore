@@ -7,6 +7,9 @@
 *.synctex
 */build/*.fls
 
+# Development files
+todo/*
+
 #environment
 *.env
 *.env.local
