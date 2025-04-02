@@ -1,0 +1,44 @@
+\documentclass{article}     
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+\title{Your Title Here}
+\author{Your Name Here}
+\date{\today}
+
+\begin{document}
+\maketitle
+\section{Introduction}
+This is a sample LaTeX document.
+\section{Figures}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/your-figure.png}
+    \caption{Your caption here}
+    \label{fig:your-label}
+\end{figure}
+\section{Tables}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Column 1 & Column 2 & Column 3 \
+        \hline
+        Data 1   & Data 2   & Data 3   \
+        \hline
+    \end{tabular}
+    \caption{Your caption here}
+    \label{tab:your-label}
+\end{table}
+\section{Math}
+\begin{equation}
+    E = mc^2
+\end{equation}
+\section{References}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
