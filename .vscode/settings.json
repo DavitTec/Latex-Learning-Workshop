@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.wordWrapColumn": 160,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.latex.autoBuild.cleanAndRetry": true,
+    "latex-workshop.latex.autoBuild.onSave": true
+}
