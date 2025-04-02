@@ -1,0 +1,40 @@
+# Ignore LaTeX auxiliary files
+*/build/*.aux
+*/build/*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.run.xml
+*.synctex
+*/build/*.fls
+
+#environment
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+*.env.development
+*.env.test
+*.env.production
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore backup files
+*/build/*~
+*/build/*.bak
+
+# Ignore log files
+*/build/*.log
+
+# Ignore compiled files
+*/build/*.pdf
+*/build/*.dvi
+
+# Ignore output files
+*/out
+*/build #This ignores all the content in the build directory
+
+# Node
+.node_modules
